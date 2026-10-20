@@ -1,0 +1,35 @@
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#101218;
+ color:#f6f7fb;
+ font-family:system-ui,sans-serif;
+}
+main{
+ min-height:100dvh;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+ padding:24px;
+}
+h1{font-size:24px}
+.bubble{
+ width:min(100%,500px);
+ min-height:150px;
+ background:#202532;
+ border-radius:24px;
+ padding:22px;
+ line-height:1.7;
+ margin:20px 0;
+}
+button{
+ width:90px;
+ height:90px;
+ border:0;
+ border-radius:50%;
+ font-size:36px;
+ cursor:pointer;
+}
+button:disabled{opacity:.5}
+p{color:#aeb6c9}
