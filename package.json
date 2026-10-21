@@ -1,1 +1,1 @@
-{"name":"umi-voice-app","version":"0.2.1","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"15.5.6","react":"19.1.0","react-dom":"19.1.0"}}
+{"name":"umi-voice-app","version":"0.2.1","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"^16.4.2","react":"19.1.0","react-dom":"19.1.0"}}
