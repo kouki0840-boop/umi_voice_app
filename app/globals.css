@@ -33,3 +33,32 @@ button{
 }
 button:disabled{opacity:.5}
 p{color:#aeb6c9}
+
+.voice{
+ width:min(100%,500px);
+ display:flex;
+ flex-direction:column;
+ gap:12px;
+ margin-bottom:18px;
+}
+.voice select{
+ width:100%;
+ padding:12px;
+ border-radius:12px;
+ font-size:16px;
+}
+.voice label{
+ display:flex;
+ flex-direction:column;
+ gap:6px;
+}
+.voice input{
+ width:100%;
+}
+.voice .test{
+ width:100%;
+ height:auto;
+ padding:12px;
+ border-radius:14px;
+ font-size:16px;
+}
